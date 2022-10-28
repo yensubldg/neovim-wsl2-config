@@ -14,6 +14,9 @@ Plug 'norcalli/nvim-colorizer.lua'
 
 Plug 'williamboman/nvim-lsp-installer'
 Plug 'neovim/nvim-lspconfig'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'jose-elias-alvarez/null-ls.nvim'
+Plug 'MunifTanjim/prettier.nvim'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
@@ -30,6 +33,6 @@ call plug#end()
 
 set completeopt=menu,menuone,noselect
 
-lua require("plugins")
-lua require("mappings")
-
+lua require("_plugins")
+lua require("_mappings")
+lua require("_prettier")
