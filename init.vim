@@ -29,6 +29,7 @@ Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'nvim-tree/nvim-tree.lua'
 Plug 'romgrk/barbar.nvim'
 Plug 'lukas-reineke/indent-blankline.nvim'
+Plug 'dinhhuy258/git.nvim'
 call plug#end()
 
 set completeopt=menu,menuone,noselect
